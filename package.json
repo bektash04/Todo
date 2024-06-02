@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "craco build",
+    "build": "webpack --config webpack.config.js",
     "eject": "react-scripts eject",
     "lint": "eslint  --fix src/**/*.js",
     "format": "prettier src/**/*.{js,jsx} --write"
