@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  padding: 30px 10px;
+  margin-bottom: 20px;
+}
+
+.todo-today {
+  color: #ffffff;
+  margin-left: 170px;
+  margin-top: 20px;
+  position: absolute;
+}
+/* .todo-span{
+    
+} */
+.header-icon {
+  background-color: yellow;
+}

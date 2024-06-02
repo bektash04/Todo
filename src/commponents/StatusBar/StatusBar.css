@@ -1,0 +1,203 @@
+.but-to-all {
+  width: 42px;
+  height: 30px;
+  border: none;
+  border-radius: 6px 0 0 6px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 400px;
+  box-shadow:
+    rgba(255, 255, 255, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: 0.4s;
+}
+.but-to-all:hover {
+  background-color: #08edb9;
+  box-shadow:
+    0 0 10px rgb(0, 255, 191),
+    0 0 20px rgb(23, 241, 212),
+    0 0 30px rgb(0, 255, 187);
+}
+
+.but-to-active {
+  width: 55px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: 0.4s;
+}
+.but-to-active:hover {
+  background-color: #08edb9;
+  box-shadow:
+    0 0 10px rgb(0, 255, 191),
+    0 0 20px rgb(23, 241, 212),
+    0 0 30px rgb(0, 255, 187);
+}
+.but-to-done {
+  width: 42px;
+  height: 30px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0 6px 6px 0;
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: 0.4s;
+}
+.but-to-done:hover {
+  background-color: #08edb9;
+  box-shadow:
+    0 0 10px rgb(0, 255, 191),
+    0 0 20px rgb(23, 241, 212),
+    0 0 30px rgb(0, 255, 187);
+}
+
+.btn-status-all {
+  width: 42px;
+  height: 30px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px 0 0 6px;
+  color: #fff;
+  font-weight: 400px;
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.btn-status-active {
+  width: 55px;
+  height: 30px;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.btn-status-done {
+  width: 42px;
+  height: 30px;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  border-radius: 0 6px 6px 0;
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.btnStatusBar {
+  display: flex;
+  gap: 1px;
+  margin-bottom: 10px;
+}
+.SBAll {
+  width: 166px;
+  height: 49px;
+  display: flex;
+  align-items: center;
+  display: flex;
+  gap: 120px;
+  margin-right: 180px;
+}
+.ul {
+  width: 300px;
+  height: 100px;
+  overflow: auto;
+}
+
+.container-todo {
+  padding: 7px 7px 22px 0px;
+}
+
+.form__group_oneform__field {
+  margin-left: -70px;
+  border: 1px solid silver !important;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #ffd000;
+  height: 30px;
+  width: 120px;
+  border-top: 0.8px solid hsl(0, 2%, 65%);
+  border-bottom: 0.5px solid hsl(0, 2%, 65%);
+  border-left: 1px solid hsl(0, 5%, 68%);
+  border-right: 0.5px solid hsl(0, 1%, 37%);
+  box-shadow: 4px 4px 0 0;
+}
+
+.form__group_oneform__field::placeholder {
+  color: transparent;
+}
+
+.form__group_oneform__field:placeholder-shown ~ .form__group_oneform__label {
+  top: 10px;
+  border-right: none;
+  border-left: none;
+}
+
+.form__group_oneform__label {
+  background-color: white;
+  border-left: 1px solid silver;
+  border-right: 1px solid silver;
+  color: #9b9b9b;
+  display: block;
+  font-size: 0.9em;
+  padding: 0 10px;
+  pointer-events: none;
+  position: absolute;
+  top: -10px;
+  transition: 0.2s;
+}
+
+.form__group_oneform__field:focus {
+  border: 1px solid #e1f604 !important;
+  outline: none;
+  box-shadow: none;
+  transform: matrix3d();
+  animation-duration: 1;
+}
+
+.form__group_oneform__field:focus ~ .form__group_oneform__label {
+  background-color: white;
+  border-right: 1px solid #0b2447;
+  border-left: 1px solid #0b2447;
+  color: #0b2447;
+  font-size: 0.9em;
+  margin-left: 10px;
+  padding: 0 10px;
+  position: absolute;
+  top: -10px;
+  transition: 0.2s;
+}
+.fa-sharp-todo {
+  color: #707070;
+  position: absolute;
+  margin-top: -21px;
+  margin-left: 28px;
+  font-size: 13px;
+}

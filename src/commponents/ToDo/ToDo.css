@@ -1,0 +1,208 @@
+.todo-text {
+  color: rgb(255, 255, 255);
+}
+.todo-text.done {
+  text-decoration: line-through;
+}
+
+.save-todo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px blue;
+  height: 32px;
+  border-top: 0.8px solid hsl(0, 0%, 100%);
+  border-bottom: 0.8px solid hsl(0, 0%, 100%);
+  border-left: 1px solid hsl(0, 0%, 100%);
+  border-right: 0.8px solid hsl(0, 0%, 100%);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+}
+.li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 340px;
+  height: 150px;
+  overflow: auto;
+}
+.list-btn-todo-res-do {
+  margin-left: 40px;
+}
+.lu-li-todo {
+  display: flex;
+  margin-top: 2px;
+}
+.todo-text.active {
+  background: none;
+}
+.btn-todo {
+  display: flex;
+  gap: 1px;
+}
+.fa-solid.fa-square-check {
+  margin-left: 0px;
+  font-size: 35px;
+  color: aliceblue;
+  border: none;
+  border-radius: 6px 0 0 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+}
+.fa-solid.fa-square-check:hover {
+  color: rgb(77, 255, 0);
+  transform: scale(1.05);
+  cursor: pointer;
+  text-shadow:
+    rgba(9, 255, 0, 0.25) 0px 54px 55px,
+    rgba(61, 255, 12, 0.12) 0px -12px 30px,
+    rgba(19, 255, 15, 0.12) 0px 4px 6px,
+    rgba(19, 254, 15, 0.17) 0px 12px 13px,
+    rgba(30, 255, 26, 0.09) 0px -3px 5px;
+}
+
+.fa-solid.fa-check {
+  color: rgb(77, 255, 0);
+  font-size: 19px;
+  border: none;
+  width: 38px;
+  cursor: pointer;
+  height: 32px;
+  border-radius: 6px 0 0 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.fa-solid.fa-check:hover {
+  color: aliceblue;
+  background: #04ff04;
+  border: none;
+  transform: scale(1.05);
+  box-shadow:
+    rgba(9, 255, 0, 0.25) 0px 54px 55px,
+    rgba(61, 255, 12, 0.12) 0px -12px 30px,
+    rgba(19, 255, 15, 0.12) 0px 4px 6px,
+    rgba(19, 254, 15, 0.17) 0px 12px 13px,
+    rgba(30, 255, 26, 0.09) 0px -3px 5px;
+}
+.fa-sharp.fa-solid.fa-pen-to-square {
+  color: rgb(242, 255, 0);
+  font-size: 19px;
+  border: none;
+  width: 38px;
+  height: 32px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.fa-sharp.fa-solid.fa-pen-to-square:hover {
+  color: aliceblue;
+  background: #e7d701;
+  border: none;
+  transform: scale(1.05);
+  box-shadow:
+    rgba(242, 255, 0, 0.25) 0px 54px 55px,
+    rgba(239, 255, 9, 0.12) 0px -12px 30px,
+    rgba(225, 255, 1, 0.12) 0px 4px 6px,
+    rgba(255, 239, 10, 0.17) 0px 12px 13px,
+    rgba(247, 255, 26, 0.09) 0px -3px 5px;
+}
+
+.list-btn-todo {
+  display: flex;
+  gap: 1px;
+}
+
+.fa-solid.fa-trash-arrow-up {
+  color: #28ff28;
+  border: none;
+  background: inherit;
+  width: 38px;
+  height: 32px;
+  display: flex;
+  cursor: pointer;
+  font-size: 19px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px 0 0 6px;
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.fa-solid.fa-trash-arrow-up:hover {
+  color: aliceblue;
+  background: #28ff28;
+  border: none;
+  transform: scale(1.05);
+  box-shadow:
+    rgba(0, 255, 47, 0.25) 0px 54px 55px,
+    rgba(69, 255, 60, 0.12) 0px -12px 30px,
+    rgba(0, 255, 0, 0.12) 0px 4px 6px,
+    rgba(13, 255, 0, 0.17) 0px 12px 13px,
+    rgba(29, 255, 8, 0.09) 0px -3px 5px;
+}
+.fa-sharp.fa-solid.fa-trash {
+  color: #ff0606;
+  border: none;
+  background: inherit;
+  width: 38px;
+  height: 32px;
+  display: flex;
+  font-size: 19px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 6px 6px 0;
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: transform 0.3s ease-in-out;
+}
+.fa-sharp.fa-solid.fa-trash:hover {
+  color: aliceblue;
+  background: #ff1313;
+  border: none;
+  transform: scale(1.05);
+  box-shadow:
+    rgba(255, 36, 36, 0.25) 0px 54px 55px,
+    rgba(255, 22, 22, 0.12) 0px -12px 30px,
+    rgba(255, 4, 4, 0.12) 0px 4px 6px,
+    rgba(255, 68, 68, 0.17) 0px 12px 13px,
+    rgba(255, 27, 27, 0.09) 0px -3px 5px;
+}
+
+.fa-sharp.fa-solid.fa-trash {
+  color: #ff0606;
+  font-size: 19px;
+  position: relative;
+}
+
+.fa-sharp.fa-solid.fa-trash:hover {
+  color: aliceblue;
+  cursor: pointer;
+}

@@ -1,0 +1,103 @@
+/* 
+.fa-solid.fa-trash{
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+  font-size: 21px;
+   position: absolute;
+    border: none; 
+    cursor: pointer; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+} */
+/* .fa-solid.fa-trash:hover{
+   background: rgb(36, 255, 255);
+   box-shadow: rgba(29, 255, 255, 0.25) 0px 54px 55px, rgba(18, 219, 255, 0.12) 0px -12px 30px, rgba(13, 215, 255, 0.12) 0px 4px 6px, rgba(6, 234, 255, 0.17) 0px 12px 13px, rgba(0, 213, 255, 0.09) 0px -3px 5px;
+
+}
+  */
+
+/* <i class="fa-solid fa-trash"></i> */
+/* 
+.trash-todo-w-10{
+    font-size: 35px;
+    margin-top: -7px;
+    margin-left: -14px;
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+  font-size: 35px;
+   position: absolute;
+    border: none; 
+    cursor: pointer; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s;
+} */
+
+.trash-div-todo {
+  position: absolute;
+  margin-top: -4.5px;
+}
+
+.trash-todo-w-10 {
+  font-size: 35px;
+  color: rgb(248, 255, 255);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  transition: 0.5s;
+  cursor: pointer;
+  box-shadow:
+    rgba(255, 255, 255, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.trash-todo-w-10:hover {
+  background-color: #08edb9;
+  box-shadow:
+    0 0 10px rgb(0, 255, 191),
+    0 0 20px rgb(23, 241, 212),
+    0 0 30px rgb(0, 255, 187);
+}
+.trash-todo {
+  font-size: 35px;
+  color: rgb(248, 255, 255);
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-top: 12px;
+  border-left: 0.5px solid hsl(0, 1%, 51%);
+  border-right: 0.5px solid hsl(0, 1%, 37%);
+}
+
+/* .trash-todo:hover{
+    margin-top: -7px;
+    margin-left: -14px;
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+  font-size: 21px;
+   position: absolute;
+    border: none; 
+    cursor: pointer; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s;
+}
+
+
+ */

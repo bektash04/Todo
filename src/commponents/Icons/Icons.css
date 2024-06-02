@@ -1,0 +1,24 @@
+.icons-todo {
+  position: relative;
+  top: -50%;
+  left: -10%;
+  display: flex;
+  font-size: 50px;
+  transform: rotate(-30deg);
+  gap: 17px;
+  margin-top: 17px;
+}
+.icons {
+  display: flex;
+}
+.icon {
+  font-size: 50px;
+  transition: 0.3s;
+}
+.icon:hover {
+  color: rgb(255, 255, 255);
+  text-shadow:
+    0 0 10px rgb(0, 255, 191),
+    0 0 20px rgb(23, 241, 212),
+    0 0 30px rgb(0, 255, 187);
+}

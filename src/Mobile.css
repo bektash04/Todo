@@ -1,0 +1,124 @@
+@media (max-width: 381px) {
+  .todo-today {
+    margin-left: 1px;
+    margin-top: 43px;
+  }
+}
+
+@media (max-width: 380px) {
+  .container-todo {
+    margin-left: -185px;
+    margin-top: -10px;
+  }
+}
+
+@media (max-width: 381px) {
+  .btnStatusBar {
+    margin-top: 85px;
+  }
+}
+
+@media (max-width: 376px) {
+  ul {
+    margin-top: 40px;
+  }
+  li {
+    margin-left: -155px;
+  }
+  .lu-li-todo {
+    display: flow-root;
+  }
+  .float-left {
+    float: left;
+    margin-left: 80px;
+  }
+}
+
+@media (max-width: 376px) {
+  .app-containet {
+    padding: 32px 40px;
+    max-width: 380px;
+    width: 100%;
+    height: 530px;
+    background: hsla(0, 0%, 100%, 0.05);
+    border-top: 0.8px solid hsl(0, 2%, 65%);
+    border-bottom: 0.5px solid hsl(0, 2%, 65%);
+    border-left: 1px solid hsl(0, 5%, 68%);
+    border-right: 0.5px solid hsl(0, 1%, 37%);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    position: relative;
+    color: #fff;
+  }
+}
+
+@media (max-width: 375px) {
+  .trash-div-todo {
+    margin-top: -65px;
+  }
+}
+
+@media (max-width: 375px) {
+  .input-todo {
+    margin-left: -20px;
+  }
+  .fa-solid-todo {
+    margin-left: -10px;
+  }
+}
+
+@media (max-width: 307px) {
+  .input-todo {
+    width: 200px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 264px) {
+  .input-todo {
+    width: 150px;
+    height: 50px;
+  }
+}
+@media (max-width: 193px) {
+  .input-todo {
+    width: 30px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 264px) {
+  .app-containet {
+    padding: 32px 40px;
+    max-width: 380px;
+    width: 100%;
+    height: 560px;
+    background: hsla(0, 0%, 100%, 0.05);
+    border-top: 0.8px solid hsl(0, 2%, 65%);
+    border-bottom: 0.5px solid hsl(0, 2%, 65%);
+    border-left: 1px solid hsl(0, 5%, 68%);
+    border-right: 0.5px solid hsl(0, 1%, 37%);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    position: relative;
+    color: #fff;
+  }
+}
+
+@media (max-width: 233px) {
+  .app-containet {
+    padding: 32px 40px;
+    max-width: 380px;
+    width: 100%;
+    height: 590px;
+    background: hsla(0, 0%, 100%, 0.05);
+    border-top: 0.8px solid hsl(0, 2%, 65%);
+    border-bottom: 0.5px solid hsl(0, 2%, 65%);
+    border-left: 1px solid hsl(0, 5%, 68%);
+    border-right: 0.5px solid hsl(0, 1%, 37%);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    position: relative;
+    color: #fff;
+  }
+}

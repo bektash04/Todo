@@ -1,0 +1,38 @@
+form {
+  margin-top: 75px;
+}
+
+.input-todo {
+  padding: 6.5px 50px;
+  position: absolute;
+  width: 260px;
+  height: 35px;
+  color: aliceblue;
+  border-radius: 8px;
+  border: none;
+  margin-left: 50px;
+  margin-top: 10px;
+  background: hsla(0, 0%, 100%, 0.05);
+  border-top: 0px solid hsl(0, 2%, 65%);
+  border-bottom: 000.1px solid hsl(0, 1%, 49%);
+  border-left: 0px solid hsl(0, 5%, 68%);
+  border-right: 0.1px solid hsl(0, 1%, 37%);
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+input::placeholder {
+  color: aliceblue;
+}
+
+.fa-solid-todo {
+  cursor: pointer;
+  font-size: 18px;
+  position: absolute;
+  margin-left: 60px;
+  margin-top: 18px;
+}
